@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- getbootstrap docs download se descarga los archivos y se copia en la carpeta, despues se escribe este link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- se agrega css con archivo externo -->
+    <script
+      src="https://kit.fontawesome.com/23956bccd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- para iconos de fontawesome, crear cta y se copia link del kit -->
+    <title>Cuppon</title>
+    <!-- se cambia el tittle -->
+  </head>
+
+  <body>
+    <!-- DESAFIO 4 CON BOOTSTRAP VERSION 5.3 -->
+    <!-- vista mobile con inspeccionar -->
+    <!-- DE BOOTSTRAP COMPONENTS EL NAVBAR VERSION 5.3 -->
+    <div class="container-fluid bg-success">
+      <!-- se agrega container fluid y color bg -->
+      <nav
+        class="container navbar navbar-expand-lg bg-success"
+        data-bs-theme="dark"
+      >
+        <!-- se agrega container, color con bg y color letra dark -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logo-white.png"
+              alt="logo-white"
+              width="86px"
+              height="25px"
+            /><!-- se agrega imagen de logo -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <!-- a la derecha elementos del menu -->
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Productos</a>
+              <a class="nav-link" href="#">Viajes</a>
+              <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- se termina nav -->
+    </div>
+
+    <!-- TEXTO E IMAGEN -->
+    <section>
+      <!-- nueva seccion -->
+      <div class="pri text-center">
+        <!-- se agrega clase a los dos elementos centrados -->
+        <p class="textpri text-black fw-bold my-4">
+          No te pierdas las promociones
+        </p>
+        <!-- parrafo con color letra, texto negrita y margen -->
+        <img src="assets/img/fotoc.jpg" alt="comprando" /><!-- imagen -->
+      </div>
+    </section>
+    <!-- termina la seccion -->
+
+    <!-- SE CREA 1 ROW 6 COL 6 CARDS DE COMPONENTS VERSION 5.3 -->
+    <div class="container fluid mt-5">
+      <!-- se crea el container fluid, margen top -->
+      <div class="row row-gap-5">
+        <!-- se crea la fila, se agrega gap -->
+
+        <!-- primera columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia primera card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto1.jpg"
+              class="card-img-top"
+              alt="foto1"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!-- alineacion con text -->
+              <h5 class="card-title text-dark titulo1">
+                Plumón Coral Fleece estampado en modelo y tamaño a elección
+              </h5>
+              <!-- se agrega texto, style con clase titulo1, color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                Plumones Manolino
+              </p>
+              <!-- se agrega texto, style con clase titulo2, pt mb y color con text -->
+              <i class="fa-solid fa-location-dot text-dark-emphasis"></i
+              ><!-- se copia icono de fontawesome -->
+              <span class="direccion text-dark-emphasis dirr"
+                >9191 Avenida Vitacura, Chile</span
+              ><!-- se agrega texto, style con clase dirr y color text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg, alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$45.990</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$22.990</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text -->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la primera columna -->
+
+        <!-- segunda columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia segunda card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto2.jpg"
+              class="card-img-top"
+              alt="foto2"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!-- alineacion con text -->
+              <h5 class="card-title text-dark titulo1">
+                Entrada para compartir + platos de fondo + postres + bebestibles
+              </h5>
+              <!-- se agrega texto, style con clase titulo1 y color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                V for Vegan
+              </p>
+              <!-- se agrega texto, style con clase titulo2,  pt mb y color con text -->
+              <i class="fa-solid fa-location-dot text-dark-emphasis"></i
+              ><!-- se copia icono de fontawesome -->
+              <span class="direccion text-dark-emphasis dirr"
+                >777 Jesse Pinkman, Chile</span
+              ><!-- se agrega texto, style con clase dirr y color text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg, alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$30.990</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$12.990</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text -->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la segunda columna -->
+
+        <!-- tercera columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia tercera card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto3.jpg"
+              class="card-img-top"
+              alt="foto3"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!-- alineacion con text -->
+              <h5 class="card-title text-dark titulo1">
+                Evaluación integral + blanqueamiento dental led + limpieza +
+                fluoración
+              </h5>
+              <!-- se agrega texto, style con clase titulo1 y color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                Clínica Dental Quijada
+              </p>
+              <!-- se agrega texto, style con clase titulo2, pt mb y color con text -->
+              <i class="fa-solid fa-location-dot text-dark-emphasis"></i
+              ><!-- se copia icono de fontawesome -->
+              <span class="direccion text-dark-emphasis dirr"
+                >1342, Blanco Encalada, Chile</span
+              ><!-- se agrega texto, style con clase dirr y color text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg, alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$300.000</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$25.990</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text-->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la tercera columna -->
+
+        <!-- cuarta columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia cuarta card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto4.jpg"
+              class="card-img-top"
+              alt="foto4"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!--alineacion con text  -->
+              <h5 class="card-title text-dark titulo1">
+                Colación para 2 personas + postre (no incluye bebidas)
+              </h5>
+              <!-- se agrega texto, style con clase titulo1 y color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                Suricata almacen
+              </p>
+              <!-- se agrega texto, style con clase titulo2,  pt mb y color con text -->
+              <i class="fa-solid fa-location-dot text-dark-emphasis"></i
+              ><!-- se copia icono de fontawesome -->
+              <span class="direccion text-dark-emphasis dirr"
+                >1071 Miguel Claro, Chile</span
+              ><!-- se agrega texto, style con clase dirr y color text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg, alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$4.200</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$2.100</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text-->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la cuarta columna -->
+
+        <!-- quinta columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia quinta card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto5.jpg"
+              class="card-img-top"
+              alt="foto5"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!--alineacion con text  -->
+              <h5 class="card-title text-dark titulo1">
+                1, 2 o 4 tickets para Stukids. Elige sucursal
+              </h5>
+              <!-- se agrega texto, style con clase titulo1 y color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                Stukids Centro de Eventos
+              </p>
+              <!-- se agrega texto, style con clase titulo2, pt mb y color con text -->
+              <i class="fa-solid fa-location-dot text-dark-emphasis"></i
+              ><!-- se copia icono de fontawesome -->
+              <span class="direccion text-dark-emphasis dirr"
+                >133 El tranque, Chile</span
+              ><!-- se agrega texto, style con clase dirr y color text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg, alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$4.000</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$2.500</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text -->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la quinta columna -->
+
+        <!-- sexta columna -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- 1 col de 12 espacios telefono, 2 col de 6 espacios tablet y 3 col de 4 espacios desktop -->
+          <!-- se copia sexta card de bootstrap components version 5.3 -->
+          <div class="card mx-2">
+            <!-- se agrega margen, se borra text-center -->
+            <img
+              src="assets/img/foto6.jpg"
+              class="card-img-top"
+              alt="foto6"
+            /><!-- se agrega imagen -->
+            <div class="card-body text-left">
+              <!--alineacion con text  -->
+              <h5 class="card-title text-dark titulo1">
+                San Pedro de Atacama : 1 o 2 noches en alojamiento a elección
+              </h5>
+              <!-- se agrega texto, style con clase titulo1 y color letra text -->
+              <p class="card-text text-dark-emphasis titulo2 pt-2 mb-1">
+                D-Latam Travel
+              </p>
+              <!-- se agrega texto, style con clase titulo2, pt mb y color con text -->
+            </div>
+            <div class="card-footer text-body-secondary bg-white text-end">
+              <!-- color con bg,  alineacion con text y color con text -->
+              <span class="precio1 text-dark-emphasis pr1 pe-2">$80.200</span
+              ><!-- se agrega precio1 con style clase pr1, pe-2 y color text -->
+              <span class="precio2 text-success pr2">$44.100</span
+              ><!-- se agrega precio2 con style clase pr2, con color de bootstrap text -->
+            </div>
+          </div>
+          <!-- se termina card -->
+        </div>
+        <!-- se termina la sexta columna -->
+      </div>
+      <!-- termina la fila -->
+    </div>
+    <!-- se termina el container -->
+
+    <!-- SE CREA EL FORMULARIO de bootstrap FORMS VERSION 5.3 -->
+    <div class="container-fluid bg-success">
+      <!-- se crea container fluid y color bg -->
+      <form class="container text-center bg-success mt-5">
+        <!-- se agrega container, para centrado, color bg y margen -->
+        <div class="mb-3">
+          <label
+            for="formGroupExampleInput"
+            class="form-label text-white cupon mb-3 mt-5"
+            >Recibe cupones en tu correo</label
+          ><!-- se agrega margen, style con clase cupon y color letra text -->
+          <input
+            type="text"
+            class="form-control text-dark-emphasis nombre"
+            id="formGroupExampleInput"
+            placeholder="Nombre"
+          /><!-- se agrega style con clase nombre y color text-->
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control text-dark-emphasis correo"
+            id="formGroupExampleInput2"
+            placeholder="Correo Electrónico"
+          /><!-- se agrega style con clase correo y color text -->
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn paraenviar btn-light mb-4 px-4">
+            Enviar</button
+          ><!-- se agrega style con clase paraenviar, color boton light, margen abajo, px -->
+        </div>
+      </form>
+    </div>
+
+    <!-- SE CREA EL FOOTER -->
+    <footer class="text-center mt-3">
+      <!-- para textos centrados y margen -->
+      <img
+        class="logo p-2"
+        src="assets/img/logo-black.png"
+        alt="logo-black"
+        width="95px"
+      /><!-- se agrega logo black -->
+      <p class="parrafo text-dark-emphasis parrfooter mb-4 px-4">
+        © 2024 Cuppon Latam .Todos los derechos reservados.
+      </p>
+      <!-- parrafo con margen abajo, style clase parrfooter, color text y px -->
+    </footer>
+
+    <!-- SE AGREGA SRC PARA QUE FUNCIONE JS -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

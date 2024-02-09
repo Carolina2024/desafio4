@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/* url de fonts.google primero se selecciona y se copia link */
+
+*{
+  font-family: 'Roboto', sans-serif;/* se copia de fonts google  */
+}
+
+
+/* STYLE CARDS */
+.titulo1{/* para h5 */
+  font-size: 20px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.titulo2{/* para el p */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.dirr{/* para la direccion */
+  font-size: 13px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.pr1{/* para el precio1 */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.pr2{/* para el precio2 */
+  font-size: 20px;/* tamaño de la letra */
+  font-weight: 500;/* destacar palabra */
+}
+
+
+/* STYLE FORMULARIO */
+.cupon{/* para texto del formulario */
+  font-size: 21px;/* tamaño de la letra */
+  font-weight: 500;/* destacar palabra */
+}
+
+.nombre{/* para el nombre */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.correo{/* para el correo */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+.paraenviar{/* para el boton */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 500;/* destacar palabra */
+}
+
+
+/* STYLE FOOTER */
+.parrfooter{/* para el parrafo del footer */
+  font-size: 16px;/* tamaño de la letra */
+  font-weight: 300;/* destacar palabra */
+}
+
+
+
+
+
